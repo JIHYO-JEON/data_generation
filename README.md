@@ -1,0 +1,3 @@
+# data_generation
+
+The network used the KITTI dataset as its training data. It is composed of several outdoor scenes that captured while driving with cameras and depth sensor LIDAR. There are 56 scenes from different categories such as 'city', 'residential', and 'road' in the raw data. As KITTI dataset provides a good ground truth for depth estimation but does not contain images with raindrops on the lens, we generate the synthetic raindrop dataset with the Gaussian blur filter. The water-drop shape is created with the combination of one circle and one oval and then the effect of the water droplet surface is created through the blur.
